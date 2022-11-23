@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61e535d4-85f7-4e6c-b26a-36da446150d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quynh/binarysearch/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quynh/binarysearch/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +41,13 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.quynh.binarysearch.BinarySearch">
+  <component name="RunManager" selected="Application.SearchInsertPosition">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.BinarySearch" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.quynh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindFactors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.demo.FindFactors" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.quynh.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchInsertPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.binarysearch.SearchInsertPosition" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quynh.binarysearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.quynh.binarysearch.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.binarysearch.BinarySearch" />
       <module name="leetcode-practice" />
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.com.quynh.binarysearch.BinarySearch" />
         <item itemvalue="Application.SearchIn2DMatrix" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.MaxSubArray" />
-        <item itemvalue="Application.FindFactors" />
       </list>
     </recent_temporary>
   </component>
