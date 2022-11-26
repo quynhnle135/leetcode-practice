@@ -4,7 +4,7 @@ public class ReverseLinkedList {
     public static class ListNode {
         int val;
         ListNode next;
-        // instructor
+        // constructor
         public ListNode() {}
         public ListNode(int val) {
             this.val = val;
