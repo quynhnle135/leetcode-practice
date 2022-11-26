@@ -41,13 +41,13 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchInsertPosition">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.BinarySearch" />
+  <component name="RunManager" selected="Application.RemoveLinkedElements">
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.binarysearch.FindPeakElement" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.*" />
+          <option name="PATTERN" value="com.quynh.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.MaxSubArray" />
+    <configuration name="RemoveLinkedElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.linkedlist.RemoveLinkedElements" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.*" />
+          <option name="PATTERN" value="com.quynh.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveLinkedElements" />
+        <item itemvalue="Application.FindPeakElement" />
         <item itemvalue="Application.SearchInsertPosition" />
         <item itemvalue="Application.com.quynh.binarysearch.BinarySearch" />
         <item itemvalue="Application.SearchIn2DMatrix" />
-        <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
