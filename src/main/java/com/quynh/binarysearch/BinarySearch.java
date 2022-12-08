@@ -2,18 +2,17 @@ package com.quynh.binarysearch;
 
 public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
-        int lo = 0;
-        int hi = arr.length - 1;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
+        int l = 0;
+        int r = arr.length - 1;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
             if (arr[mid] == target) {
                 return mid;
             }
-
-            if (target < arr[mid]) {
-                hi = mid - 1;
+            if (arr[mid] > target) {
+                r = mid;
             } else {
-                lo = mid + 1;
+                l = mid + 1;
             }
         }
         return -1;
