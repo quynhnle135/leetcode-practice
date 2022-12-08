@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61e535d4-85f7-4e6c-b26a-36da446150d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quynh/string/ValidPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quynh/string/ValidPalindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindFirstPalindrome">
+  <component name="RunManager" selected="Application.ValidPalindrome">
     <configuration name="FindFirstPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.string.FindFirstPalindrome" />
       <module name="leetcode-practice" />
@@ -122,9 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.FindFirstPalindrome" />
         <item itemvalue="Application.PascalTriangle" />
-        <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.MST" />
       </list>
