@@ -41,7 +41,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PascalTriangle">
+  <component name="RunManager" selected="Application.FindFirstPalindrome">
+    <configuration name="FindFirstPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.string.FindFirstPalindrome" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quynh.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.MST" />
       <module name="leetcode-practice" />
@@ -81,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.linkedlist.ReverseLinkedList" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.quynh.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.TwoSum" />
       <module name="leetcode-practice" />
@@ -122,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstPalindrome" />
         <item itemvalue="Application.PascalTriangle" />
         <item itemvalue="Application.ValidPalindrome" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.MST" />
         <item itemvalue="Application.MST" />
       </list>
     </recent_temporary>
