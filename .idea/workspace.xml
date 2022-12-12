@@ -44,7 +44,7 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GoodPairs">
+  <component name="RunManager" selected="Application.MaximumSubArray">
     <configuration name="GoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.array.GoodPairs" />
       <module name="leetcode-practice" />
@@ -64,6 +64,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.quynh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.array.MaximumSubArray" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quynh.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.string.ReverseWord" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.quynh.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseWordInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.string.ReverseWordInString" />
       <module name="leetcode-practice" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSubArray" />
         <item itemvalue="Application.GoodPairs" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.ReverseWordInString" />
         <item itemvalue="Application.ReverseStringII" />
-        <item itemvalue="Application.ReverseWord" />
       </list>
     </recent_temporary>
   </component>
