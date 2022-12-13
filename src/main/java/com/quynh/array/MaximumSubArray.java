@@ -15,6 +15,7 @@ public class MaximumSubArray {
         return max;
     }
 
+    // update negative sum approach
     public static int maxSubArray(int[] arr) {
         int maxSum = Integer.MIN_VALUE;
         int curSum = 0;
@@ -27,6 +28,9 @@ public class MaximumSubArray {
         }
         return maxSum;
     }
+
+    // sliding window approach
+
 
     public static void main(String[] args) {
         int[] arr1 = {-2,1,-3,4,-1,2,1,-5,4};
