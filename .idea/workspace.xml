@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaximumProductArray">
+  <component name="RunManager" selected="Application.PascalTriangleII">
     <configuration name="ContainDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.slidingwindow.ContainDuplicateII" />
       <module name="leetcode-practice" />
@@ -84,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.slidingwindow.MaximumSubarray" />
+    <configuration name="PascalTriangleII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.PascalTriangleII" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.slidingwindow.*" />
+          <option name="PATTERN" value="com.quynh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PascalTriangleII" />
         <item itemvalue="Application.MaximumProductArray" />
         <item itemvalue="Application.MaxProductOfThree" />
         <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.ContainDuplicateII" />
-        <item itemvalue="Application.MaximumSubarray" />
       </list>
     </recent_temporary>
   </component>
@@ -149,16 +149,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/quynh/slidingwindow/MaximumProductArray.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/quynh/slidingwindow/MaximumProductArray.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
