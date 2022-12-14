@@ -3,45 +3,20 @@ package com.quynh.slidingwindow;
 import java.util.*;
 
 public class ContainDuplicateII {
-    // 1 0 1 1, k = 1
-    // true
-//    public static boolean containDuplicate(int[] arr, int k) {
-//        int windowStart = 0;
-//        Queue<Integer> seenNumber = new LinkedList<>();
-//        // add first number to queue
-//        seenNumber.add(arr[windowStart]);
-//        for (int windowEnd = 1; windowEnd < arr.length; windowEnd++) {
-//            if (windowEnd - windowStart > k) {
-//                windowStart++;
-//                seenNumber.remove();
-//            }
-//            if (!seenNumber.contains(arr[windowEnd])) {
-//                seenNumber.add(arr[windowEnd]);
-//            } else {
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
 
     public static boolean containDuplicate(int[] nums, int k) {
-        int start = 0;
-        Set<Integer> seenNumbers = new HashSet<>();
-        seenNumbers.add(nums[start]);
-        for (int end = 1; end < nums.length; end++) {
-            if (end - start <=k && !seenNumbers.contains(nums[end])) {
-                seenNumbers.add(nums[end]);
-            }
-             else if (end - start > k) {
-                seenNumbers.remove(nums[start]);
-                start++;
+        if (k == 0) return false;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            if (map.containsKey(nums[i]) && i - map.get(nums[i]) <= k) {
+                return true;
             } else {
-                 return true;
+                    map.put(nums[i], i);
             }
-
         }
         return false;
     }
+
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 1};
         int k = 3;
