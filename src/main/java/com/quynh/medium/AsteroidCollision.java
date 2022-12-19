@@ -13,7 +13,7 @@ public class AsteroidCollision {
             if (asteroids[i] > 0) {
                 stack.push(asteroids[i]);
             } else {
-                while (!stack.isEmpty() && asteroids[i] < 0 && stack.peek() < Math.abs(asteroids[i])) {
+                while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < Math.abs(asteroids[i])) {
                     stack.pop();
                 }
                 if (stack.isEmpty() || stack.peek() < 0) {
