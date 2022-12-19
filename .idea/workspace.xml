@@ -44,13 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PascalTriangleII">
-    <configuration name="ContainDuplicateII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.slidingwindow.ContainDuplicateII" />
+  <component name="RunManager" selected="Application.AsteroidCollision">
+    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.medium.AsteroidCollision" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.slidingwindow.*" />
+          <option name="PATTERN" value="com.quynh.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.PascalTriangleII" />
         <item itemvalue="Application.MaximumProductArray" />
         <item itemvalue="Application.MaxProductOfThree" />
         <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.ContainDuplicateII" />
       </list>
     </recent_temporary>
   </component>
