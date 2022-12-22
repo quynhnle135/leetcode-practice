@@ -6,18 +6,21 @@ import java.util.Map;
 public class LongestSubstringWithoutRepeatingChar {
     // sliding window approach
     public static int findLongestSubstring(String s) {
-        int start = 0;
+        int l = 0;
+        int r = 0;
         int res = 0;
         Map<Character, Integer> map = new HashMap<>();
-        for (int end = 0; end < s.length(); end++) {
-            char r = s.charAt(end);
-            map.put(r, map.getOrDefault(r, 0) + 1);
-            while (map.get(r) > 1) {
-                char l = s.charAt(start);
-                map.put(l, map.get(l) - 1);
-                start++;
+        while (r < s.length()) {
+            char right = s.charAt(r);
+            map.put(right, map.getOrDefault(right, 0) + 1);
+
+            while(map.get(right) > 1) {
+                char left = s.charAt(l);
+                map.put(left, map.get(left) - 1);
+                l++;
             }
-            res = Math.max(res, end - start + 1);
+            res = Math.max(res, r - l + 1);
+            r++;
         }
         return res;
     }
