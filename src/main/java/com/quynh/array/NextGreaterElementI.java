@@ -22,11 +22,11 @@ public class NextGreaterElementI {
 
     }
     public static void main(String[] args) {
-        int[] nums1 = {2, 4};
-        int[] nums2 = {1, 2, 3, 4};
+        int[] nums1 = {4, 3, 10};
+        int[] nums2 = {5, 4, 3, 2, 1, 10};
         int[] res = findGreaterElement(nums1, nums2);
         for (int n : res) {
-            System.out.print(n + " "); // -1 3 -1
+            System.out.print(n + " ");
         }
 
     }
