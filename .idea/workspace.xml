@@ -44,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReveresLinkedList">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="FibonacciNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.recursion.FibonacciNumber" />
       <module name="leetcode-practice" />
@@ -58,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.array.NextGreaterElementI" />
+    <configuration name="NextGreaterElementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.medium.NextGreaterElementII" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.array.*" />
+          <option name="PATTERN" value="com.quynh.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.medium.NextGreaterElementII" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.recursion.Palindrome" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.quynh.medium.*" />
+          <option name="PATTERN" value="com.quynh.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ReveresLinkedList" />
         <item itemvalue="Application.PalindromeLinkedList" />
         <item itemvalue="Application.FibonacciNumber" />
         <item itemvalue="Application.NextGreaterElementII" />
-        <item itemvalue="Application.NextGreaterElementI" />
       </list>
     </recent_temporary>
   </component>
