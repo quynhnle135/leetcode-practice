@@ -44,26 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.JumpGame">
+  <component name="RunManager" selected="Application.RotateArray">
     <configuration name="CanPlaceFlowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.array.CanPlaceFlowers" />
       <module name="leetcode-practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.quynh.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.quynh.tree.InOrderTraversal" />
-      <module name="leetcode-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.quynh.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.quynh.array.RotateArray" />
+      <module name="leetcode-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.quynh.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TopKFrequentWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.quynh.medium.TopKFrequentWords" />
       <module name="leetcode-practice" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.CanPlaceFlowers" />
         <item itemvalue="Application.TopKFrequentWords" />
         <item itemvalue="Application.MaximumDepth" />
-        <item itemvalue="Application.InOrderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -153,16 +153,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/quynh/medium/AsteroidCollision.java</url>
           <line>40</line>
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/quynh/medium/JumpGame.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/quynh/medium/JumpGame.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
